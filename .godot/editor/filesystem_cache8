@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1726894021
+camera_2d.gd::GDScript::-1::1726889278::0::1::::<>Camera2D<>::
+circle.png::CompressedTexture2D::5795611952338154582::1726883222::1726894021::1::::<><>::
+gitlog.txt::TextFile::-1::1726889914::0::1::::<><>::
+icon.svg::CompressedTexture2D::6585967619832110180::1726885671::1726894021::1::::<><>::
+obstacle.gd::GDScript::-1::1726889492::0::1::::Obstacle<>AnimatableBody2D<>::
+obstacle.tscn::PackedScene::8495121571717898859::1726890600::0::1::::<><>::res://obstacle.gd
+player.gd::GDScript::-1::1726888807::0::1::::Player<>Node2D<>::
+Rootscene.gdshader::Shader::-1::1726890600::0::1::::<><>::
+Rootscene.tscn::PackedScene::9142848837165309790::1726890600::0::1::::<><>::res://Rootscene.gdshader<>res://player.gd<>uid://coto48yjlxguo::::res://circle.png<>uid://dtbdn8jgmkstn::::res://obstacle.tscn<>res://spawn_manager.gd<>res://camera_2d.gd
+spawn_manager.gd::GDScript::-1::1726888700::0::1::::SpawnManager<>Node<>::

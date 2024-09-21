@@ -1,15 +1,15 @@
 shader_type canvas_item;
 
-void vertex() {
-	// Called for every vertex the material is visible on.
-}
-
 void fragment() {
-	// Called for every pixel the material is visible on.
-	COLOR = vec4(1.0f, 0.0f, 0.0f, 1.0f);
-}
+    // Use the built-in TIME variable to animate the color
+    // Adjust the oscillation to avoid white (max RGB)
+    float red = abs(sin(TIME * 0.5));       // Red component oscillates with time
+    float green = abs(sin(TIME * 0.7 + 1.0)) * 0.8; // Green component, with a lower maximum value
+    float blue = abs(sin(TIME * 0.9 + 2.0)) * 0.6;  // Blue component, with an even lower maximum
 
-//void light() {
-	// Called for every pixel for every light affecting the CanvasItem.
-	// Uncomment to replace the default light processing function with this one.
-//}
+    // Set the alpha to 1 (fully opaque)
+    vec4 color = vec4(red, green, blue, 1.0);
+
+    // Output the color to the fragment
+    COLOR = color;
+}
