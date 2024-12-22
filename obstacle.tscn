@@ -6,7 +6,7 @@
 script = ExtResource("1_cfkbn")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(46, -77, 84, 0, 47, 75, -47, 75, -84, 0, -45, -78, -55, -82, -96, 0, -53, 85, 53, 85, 96, 0, 54, -82)
+polygon = PackedVector2Array(55, -81, 84, 0, 47, 75, -47, 75, -84, 0, -51, -81, -61, -84, -96, 0, -53, 85, 53, 85, 96, 0, 66, -84)
 
 [node name="Line2D" type="Line2D" parent="CollisionPolygon2D"]
-points = PackedVector2Array(-50, -80, -90, 0, -50, 80, 50, 80, 90, 0, 50, -80)
+points = PackedVector2Array(-56, -82, -90, 0, -50, 80, 50, 80, 90, 0, 59, -82)

@@ -19,15 +19,15 @@ font_size = 51
 
 [sub_resource type="LabelSettings" id="LabelSettings_06dwy"]
 font = ExtResource("3_6i76r")
-font_size = 200
+font_size = 100
 
 [sub_resource type="LabelSettings" id="LabelSettings_jhpnj"]
 font = ExtResource("3_6i76r")
-font_size = 100
+font_size = 50
 
 [sub_resource type="LabelSettings" id="LabelSettings_s0wis"]
 font = ExtResource("3_6i76r")
-font_size = 100
+font_size = 50
 outline_size = 3
 shadow_size = 6
 shadow_color = Color(0.214103, 0.214103, 0.214103, 0)
@@ -67,29 +67,31 @@ label_settings = SubResource("LabelSettings_jdar0")
 horizontal_alignment = 2
 
 [node name="Seconds" type="Label" parent="CanvasLayer/Panel"]
-offset_left = -184.0
-offset_top = 14.0
-offset_right = 215.0
-offset_bottom = 239.0
+layout_mode = 0
+offset_left = 90.0
+offset_top = 31.0
+offset_right = 489.0
+offset_bottom = 256.0
 text = "00:"
 label_settings = SubResource("LabelSettings_06dwy")
 horizontal_alignment = 2
 
 [node name="Msecs" type="Label" parent="CanvasLayer/Panel"]
-offset_left = 226.0
-offset_top = 100.0
-offset_right = 476.0
-offset_bottom = 213.0
-text = "000"
+layout_mode = 0
+offset_left = 320.0
+offset_top = 73.0
+offset_right = 570.0
+offset_bottom = 186.0
+text = "00"
 label_settings = SubResource("LabelSettings_jhpnj")
 horizontal_alignment = 2
 
 [node name="Time" type="Label" parent="CanvasLayer/Panel"]
 layout_mode = 0
-offset_left = -512.0
-offset_top = 60.0
-offset_right = -204.0
-offset_bottom = 173.0
+offset_left = 119.0
+offset_top = 57.0
+offset_right = 427.0
+offset_bottom = 170.0
 text = "TIME"
 label_settings = SubResource("LabelSettings_s0wis")
 

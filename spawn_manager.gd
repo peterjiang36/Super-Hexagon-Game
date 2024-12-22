@@ -1,7 +1,7 @@
 extends Node
 class_name SpawnManager
 
-@export var spawn_rate : float = 0.5
+@export var spawn_rate : float = 0.6
 @export var next_time_to_spawn : float = 0.0
 @export var obstacle_scene : PackedScene
 @export var target_node : Node

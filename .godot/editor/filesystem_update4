@@ -4,3 +4,6 @@ res://obstacle.gd
 res://game_timer.gd
 res://rootscene.gd
 res://panel.gd
+res://spawn_manager.gd
+res://player.gd
+res://obstacle.tscn
