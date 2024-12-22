@@ -13,6 +13,5 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	$CollisionPolygon2D.scale -= Vector2.ONE * shrink_speed*delta
 	
-	
 	if $CollisionPolygon2D.scale.x < 0.05:
 		self.queue_free()
